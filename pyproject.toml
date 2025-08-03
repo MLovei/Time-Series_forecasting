@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "forecast-n-optimization"
+version = "0.1.0"
+description = "Environment for Energy sector forecasting and optimization"
+authors = ["Martynas Loveikis <Martynas.love@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "forecast_n_optimization"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.1"
+jupyter = "^1.1.1"
+numpy = "^2.3.2"
+scikit-learn = "^1.7.1"
+matplotlib = "^3.10.5"
+seaborn = "^0.13.2"
+tabulate = "^0.9.0"
+tqdm = "^4.67.1"
+xgboost = "^3.0.3"
+protobuf = "^6.31.1"
+setuptools = "^80.9.0"
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
